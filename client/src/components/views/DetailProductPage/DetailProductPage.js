@@ -33,7 +33,7 @@ function DetailProductPage(props) {
                 }
             })
     }, [])
-    
+
     // 댓글이 등록될시 Comments State에 concat으로 붙여져서 추가한 댓글이 보여지게 됨
     // 자식 컴포넌트 (Comment.js, SingleComment)에 props로 주어짐
     const refreshFunction = (newComment) =>{
